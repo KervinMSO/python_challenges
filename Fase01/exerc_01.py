@@ -10,6 +10,8 @@ nome = "Jonas"
 altura = 1.85
 peso = 87.541
 
+peso_int = int(peso)
+
 print(
-    "Olá {nome} sua altura atual é {altura} m e seu peso atual é {peso} kg. Muito obrigado, até a próxima!"
+    f"Olá {nome} sua altura atual é {altura} m e seu peso atual é {peso_int} kg. Muito obrigado, até a próxima!"
 )
